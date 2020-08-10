@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44053.7882627431"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{63B0864D-EE9A-47CF-9841-2198219BB601}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Cmn_Lib_Fun\LaunchBrowser]"/>
+				<Prp name="relpath" type="S" value="10-08-2020_18_55_05_902\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44053.7893797338"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{ACDAB91D-3565-420B-A58E-4EC23F3338F0}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Cmn_Lib_Fun\LaunchBrowser]"/>
+				<Prp name="relpath" type="S" value="10-08-2020_18_56_42_409\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44053.7906679167"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A02E217B-FB42-4944-B2A8-75FA4A29902B}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [LaunchBrowsers]"/>
+				<Prp name="relpath" type="S" value="10-08-2020_18_58_33_709\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44053.7914175231"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D718C31D-F05F-4570-99BA-42EF3FF0F897}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [LaunchBrowsers]"/>
+				<Prp name="relpath" type="S" value="10-08-2020_18_59_38_474\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44053.7924199653"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{96AEA5B9-4F70-481A-BFCB-8BBEE4332030}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Cmn_Lib_Fun\LaunchBrowser]"/>
+				<Prp name="relpath" type="S" value="10-08-2020_19_01_05_85\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44053.7942517245"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CBE9CE6B-B281-443A-A7C4-5DADA0C89A7C}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Cmn_Lib_Fun\LaunchBrowser]"/>
+				<Prp name="relpath" type="S" value="10-08-2020_19_03_43_349\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44053.7945131134"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9D9A9B13-8D75-4875-8F0A-186D1847669B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Cmn_Lib_Fun\LaunchBrowser]"/>
+				<Prp name="relpath" type="S" value="10-08-2020_19_04_05_933\Description.tcLog"/>
+				<Prp name="status" type="I" value="1"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{F786BDD6-9BE5-47C4-9B41-93E1E544D659}">
+	<children>
+		<child name="CommonLibrary" key="{83D43478-77C6-418D-9518-3C46856C6A4D}" path="CommonLibrary\CommonLibrary.mds" />
+		<child name="Project_FlipKart_Login" key="{D8D5EA36-4BFE-4A84-BD34-905BF8DFD783}" path="Project_FlipKart_Login\Project_FlipKart_Login.mds" />
+	</children>
+	<testItems key="{FF1EBDB2-9853-41D0-B59E-BA0ED0555BDC}">
+		<children>
+			<testItem key="{83D43478-77C6-418D-9518-3C46856C6A4D}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{D8D5EA36-4BFE-4A84-BD34-905BF8DFD783}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{0632869E-0094-43EE-AC70-EDCA768BB32A}">
+		<data Version="3">
+			<Items>
+				<Variable Name="FlipkartUN" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="FlipkartPW" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="FlipkartItem" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="BrowserType" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="URL" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="False">
+					<DefValue />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<analysis key="{5A647A1D-679B-4649-80B7-F6AAAD0B62DD}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>

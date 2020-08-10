@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<folder name="TestCases">
+			<child name="TC_FlipCart_Login" key="{661E4140-798B-4C8B-A680-25D65BF81543}" path="TC_FlipCart_Login.tcKDTest" />
+		</folder>
+	</children>
+</Root>

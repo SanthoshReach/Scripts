@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{6054787F-7E19-4598-90EF-51E84432132E}" ParallelWalk="True">
+				<TypeInfo Item0="{3F0E5585-8E1E-4F01-A7BE-5FE19CC568B8}" />
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{82C81643-833A-4612-951D-A6F09D85B56D}" ParallelWalk="True">
+						<TypeInfo Item0="{20D3BA2E-4DD8-41EC-979D-EBE663CC333B}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value PropertyType="0" Value="Browser" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageShoppingCartFlipkartCom" Key="{825374AC-7F45-413F-8964-7A20069CEBC2}" ParallelWalk="True">
+								<Image FileName="1506050209" Left="8" Top="112" Right="1351" Bottom="727" />
+								<TypeInfo Item0="{A86A250F-A5DD-4F7E-8B0A-2D081DDB3C41}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://www.flipkart.com/viewcart*" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="form" Key="{4041F4F1-DE42-4C7D-828B-192603684F63}" ExtendedFind="True" ParallelWalk="True">
+										<Image FileName="1506050209" Left="71" Top="477" Right="856" Bottom="528" />
+										<TypeInfo Item0="{BE963350-F300-4F0B-9AF6-30CFC9D95E25}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Form" Type="5" />
+											</Property>
+											<Property Name="action">
+												<Value PropertyType="0" Value="https://www.flipkart.com/checkout/init?loginFlow=false" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonPlaceOrder" Key="{8983976B-447A-4EDA-9003-99A00FA1849A}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="1506050209" Left="606" Top="477" Right="856" Bottom="528" />
+												<TypeInfo Item0="{950B0132-670F-4BC4-B1BD-422AC9F35512}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Button" Type="5" />
+													</Property>
+													<Property Name="contentText">
+														<Value PropertyType="0" Value="Place Order" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{82C81643-833A-4612-951D-A6F09D85B56D}">
+			<Child Name="pageShoppingCartFlipkartCom" Owner="{825374AC-7F45-413F-8964-7A20069CEBC2}">
+				<Child Name="form" Owner="{4041F4F1-DE42-4C7D-828B-192603684F63}">
+					<Child Name="buttonPlaceOrder" Owner="{8983976B-447A-4EDA-9003-99A00FA1849A}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
